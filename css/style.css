@@ -1,0 +1,108 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar */
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgba(203, 63, 49, 255);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 2px;
+
+}
+
+.search-box {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.search-box::placeholder {
+  color: #ccc;
+}
+
+/* BG Red */
+.bg {
+  background-color: rgba(203, 63, 49, 255);
+}
+
+/* Signup */
+
+.newsletter-section {
+  background-color: rgba(203, 63, 49, 255);
+  color: white;
+  padding: 60px 0;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+.signup-btn {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+}
+
+/* Podcast */
+
+.card-img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.meta-text {
+  font-size: 0.875rem;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.card-title {
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.play-button {
+  width: 36px;
+  height: 36px;
+  background-color: #c63d2f;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Footer */
+
+.custom-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-margin {
+  margin-top: 60px !important;
+}
+
+.icon {
+  font-size: 30px;
+  margin-right: 15px;
+
+}

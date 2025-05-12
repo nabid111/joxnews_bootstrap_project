@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joxnews</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- Internal JS (Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"
+        defer></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light border-bottom py-2">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+
+                <div class="d-flex align-items-center ">
+                    <button class="btn me-2" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <input class="form-control search-box border-black" type="search" placeholder="Search countries"
+                        aria-label="Search" style="width: 200px;">
+                </div>
+
+                <a class="navbar-brand mx-auto fw-bold" href="#">JOXNEWS</a>
+
+                <div class="d-flex align-items-center py-4">
+                    <span class="me-1 fw-semibold">Cart </span><span class="dot me-4"></span>
+                    <button class="btn btn-dark">Subscribe</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bg-white border-bottom py-4">
+            <div class="container d-flex justify-content-center gap-4">
+                <a href="#" class="text-dark fw-semibold text-decoration-none">Entertainment</a>
+                <a href="#" class="text-dark fw-semibold text-decoration-none">Sports</a>
+                <a href="#" class="text-dark fw-semibold text-decoration-none">Politics</a>
+                <a href="#" class="text-dark fw-semibold text-decoration-none">Business</a>
+                <a href="#" class="text-dark fw-semibold text-decoration-none">Technology</a>
+                <a href="#" class="text-dark fw-semibold text-decoration-none">Health</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <div class="container py-5">
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-12 mb-4">
+                <img src="./images/h1.jpg" class="img-fluid mb-3" width="800" alt="Featured News">
+                <h2 class="fw-semibold">Global Climate Summit Yields Mixed Results on Key Agreements</h2>
+
+                <div class="d-flex align-items-start mt-3">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-md-6">
+                            <p class="mb-0 text-muted">
+                                The global stock market has reached unprecedented levels, buoyed by optimistic economic
+                                forecasts and strong corporate earnings.
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 border-start ps-3 mt-3 mt-md-0">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/s4.jpg" alt="Author" class="rounded-circle me-2" width="40"
+                                    height="40">
+                                <div>
+                                    <div class="fw-semibold">Michael Brown</div>
+                                    <div class="text-muted small">December 16, 2024</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex mb-4 border-bottom pb-3">
+                    <img src="./images/h2.jpg" width="150" height="130" class="object-fit-cover me-3" alt="Health News">
+                    <div>
+                        <h6 class="mb-1">Health Innovations to Watch in 2024</h6>
+                        <small class="text-muted">Health &nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa-regular fa-clock"></i> 7
+                            Min</small>
+                    </div>
+                </div>
+
+                <div class="d-flex mb-4 border-bottom pb-3">
+                    <img src="./images/h3.jpeg" width="150" height="130" class="object-fit-cover me-3" alt="Tech News">
+                    <div>
+                        <h6 class="mb-1">New Regulations Put Tech Giants Under the Spotlight</h6>
+                        <small class="text-muted">Technology &nbsp;&nbsp;|&nbsp;&nbsp;<i
+                                class="fa-regular fa-clock"></i> 6 Min</small>
+                    </div>
+                </div>
+
+                <div class="d-flex mb-4 border-bottom pb-3">
+                    <img src="./images/h4.jpeg" width="150" height="130" class="object-fit-cover me-3"
+                        alt="Blockchain News">
+                    <div>
+                        <h6 class="mb-1">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h6>
+                        <small class="text-muted">Technology &nbsp;&nbsp;|&nbsp;&nbsp;<i
+                                class="fa-regular fa-clock"></i> 5 Min</small>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <img src="./images/h5.jpg" width="150" height="130" class="object-fit-cover me-3"
+                        alt="Stock Market">
+                    <div>
+                        <h6 class="mb-1">Stock Market Hits Record High Amid Economic Optimism</h6>
+                        <small class="text-muted">Business &nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa-regular fa-clock"></i>
+                            8 Min</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Latest News -->
+
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="fw-semibold">Latest News</h2>
+            <a href="#" class="text-danger text-decoration-none">VIEW ALL &rarr;</a>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="./images/l1.jpeg" class="img-fluid rounded w-100"
+                        style="height: 430px; object-fit: cover;" alt="Featured">
+                    <small>Politics | <i class="fa-regular fa-clock"></i> 8 Min</small>
+                    <h5 class="fw-bold mt-1">Global Summit 2024: Leaders Address Climate, Trade, and Security
+                        Challenges</h5>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+                        <img src="./images/h4.jpeg" class="img-fluid rounded mb-2 w-100"
+                            style="height: 150px; object-fit: cover;" alt="News">
+                        <small class="text-uppercase text-muted">Technology | <i class="fa-regular fa-clock"></i> 5
+                            Min</small>
+                        <h6 class="fw-semibold mt-1">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h6>
+                        <hr class="mt-5" style="width: 8cm; border-top: 2px solid #000; margin: 10px auto;">
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <img src="./images/l2.webp" class="img-fluid rounded mb-2 w-100"
+                            style="height: 150px; object-fit: cover;" alt="News">
+                        <small class="text-uppercase text-muted">Technology | <i class="fa-regular fa-clock"></i> 9
+                            Min</small>
+                        <h6 class="fw-semibold mt-1">Exploring the Future of Space Exploration Beyond Mars</h6>
+                        <hr class="mt-5" style="width: 8cm; border-top: 2px solid #000; margin: 10px auto;">
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <img src="./images/l3.jpeg" class="img-fluid rounded mb-2 mt-5 w-100"
+                            style="height: 150px; object-fit: cover;" alt="News">
+                        <small class="text-uppercase text-muted">Health | <i class="fa-regular fa-clock"></i> 5
+                            Min</small>
+                        <h6 class="fw-semibold mt-1">The Role of Fitness in Chronic Disease Management</h6>
+                        <hr class="mt-5" style="width: 8cm; border-top: 2px solid #000; margin: 10px auto;">
+                    </div>
+
+                    <div class="col-md-6">
+                        <img src="./images/l4.jpeg" class="img-fluid rounded mb-2 mt-5 w-100"
+                            style="height: 150px; object-fit: cover;" alt="News">
+                        <small class="text-uppercase text-muted">Technology | <i class="fa-regular fa-clock"></i> 6
+                            Min</small>
+                        <h6 class="fw-semibold mt-1">The Science of Sleep: How to Rest Better in a 24/7 World</h6>
+                        <hr class="mt-5" style="width: 8cm; border-top: 2px solid #000; margin: 10px auto;">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- BG Red -->
+
+    <div class="container-fluid bg text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-3">
+                    <h2 class="fw-bold">Blockchain Beyond<br>Cryptocurrency: Revolutionizing Industries</h2>
+                    <p class="mt-3 border-top pt-3">
+                        Smart city initiatives are leveraging AI, IoT, and data analytics to create
+                        sustainable&nbsp;spaces.
+                    </p>
+                    <div class="d-flex align-items-center mt-4">
+                        <img src="./images/s1.jpg" alt="Author" class="rounded-circle me-2" width="40" height="40">
+                        <div>
+                            <div class="fw-semibold">By Ethan Collins</div>
+                            <small>Published Jan 11, 2025</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <img src="./images/h4.jpeg" class="img-fluid rounded w-100 h-100 object-fit-cover"
+                        alt="AI & Blockchain">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Editor's Pick -->
+
+    <div class="container py-5">
+
+        <h3 class="fw-bold mb-4">Editors Pick</h3>
+        <div class="row mb-4">
+
+            <div class="col-lg-4">
+                <h2>5G Expansion: What It Means for Consumers and Businesses</h2>
+                <hr class="my-3" style="border-top: 2px solid black;">
+                <p class="text-muted">
+                    From faster downloads to smarter cities, 5G is reshaping global connectivity.
+                </p>
+            </div>
+
+            <div class="col-lg-8">
+                <img src="./images/e1.jpeg" alt="5G Expansion" class="img-fluid rounded w-100"
+                    style="object-fit: cover; height: 100%;">
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <img src="./images/e2.webp" class="img-fluid mb-2 rounded w-100"
+                    style="height: 200px; object-fit: cover;" alt="Cricket">
+                <small class="text-muted">Sports | <i class="fa-regular fa-clock"></i> 13 Min</small>
+                <p class="mt-1 mb-0 fw-semibold">Cricket World Cup: Highlights from an Action-Packed Week</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="./images/l2.webp" class="img-fluid mb-2 rounded w-100"
+                    style="height: 200px; object-fit: cover;" alt="Sleep">
+                <small class="text-muted">Technology | <i class="fa-regular fa-clock"></i> 6 Min</small>
+                <p class="mt-1 mb-0 fw-semibold">The Science of Sleep: How to Rest Better in a 24/7 World</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="./images/l4.jpeg" class="img-fluid mb-2 rounded w-100"
+                    style="height: 200px; object-fit: cover;" alt="Space">
+                <small class="text-muted">Technology | <i class="fa-regular fa-clock"></i> 9 Min</small>
+                <p class="mt-1 mb-0 fw-semibold">Exploring the Future of Space Exploration Beyond Mars</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Technology -->
+
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Technology</h2>
+            <a href="#" class="text-danger text-decoration-none">View All &rarr;</a>
+        </div>
+        <div class="row">
+            <!-- Card 1 - Text over image, no background -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-white">
+                    <div class="position-relative h-100 overflow-hidden">
+                        <img src="./images/e1.jpeg" class="w-100 h-100 object-fit-cover" alt="5G Expansion">
+                        <div class="position-absolute bottom-0 start-0 p-3 w-100">
+                            <small>Sofia Ramirez | <i class="fa-regular fa-clock"></i> 9 Min</small>
+                            <h5 class="card-title mt-2">5G Expansion: What It Means for Consumers and Businesses</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="ratio ratio-4x3 overflow-hidden">
+                        <img src="./images/h4.jpeg" class="card-img-top object-fit-cover" alt="Blockchain">
+                    </div>
+                    <div class="card-body">
+                        <small>Ethan Collins | <i class="fa-regular fa-clock"></i> 5 Min</small>
+                        <h5 class="card-title mt-2">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="ratio ratio-4x3 overflow-hidden">
+                        <img src="./images/l2.webp" class="card-img-top object-fit-cover" alt="Space Exploration">
+                    </div>
+                    <div class="card-body">
+                        <small>Sarah Lee | <i class="fa-regular fa-clock"></i> 9 Min</small>
+                        <h5 class="card-title mt-2">Exploring the Future of Space Exploration Beyond Mars</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Staff -->
+
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Staff Writers</h2>
+            <a href="#" class="text-danger text-decoration-none">View All &rarr;</a>
+        </div>
+        <div class="row">
+            <!-- Writer 1 -->
+            <div class="col-md-3 mb-4">
+                <img src="./images/s1.jpg" alt="Ethan Collins" class="img-fluid rounded mb-2 w-100"
+                    style="height: 250px; object-fit: cover">
+                <h6 class="mb-0 fw-semibold">Ethan Collins</h6>
+                <small class="text-muted">Senior Writer</small>
+            </div>
+            <!-- Writer 2 -->
+            <div class="col-md-3 mb-4">
+                <img src="./images/s2.webp" alt="Sofia Ramirez" class="img-fluid rounded mb-2 w-100"
+                    style="height: 250px; object-fit: cover">
+                <h6 class="mb-0 fw-semibold">Sofia Ramirez</h6>
+                <small class="text-muted">Author</small>
+            </div>
+            <!-- Writer 3 -->
+            <div class="col-md-3 mb-4">
+                <img src="./images/s3.jpg" alt="Laura Bennett" class="img-fluid rounded mb-2 w-100"
+                    style="height: 250px; object-fit: cover">
+                <h6 class="mb-0 fw-semibold">Laura Bennett</h6>
+                <small class="text-muted">Editorialist</small>
+            </div>
+            <!-- Writer 4 -->
+            <div class="col-md-3 mb-4">
+                <img src="./images/s4.jpg" alt="Michael Brown" class="img-fluid rounded mb-2 w-100"
+                    style="height: 250px; object-fit: cover">
+                <h6 class="mb-0 fw-semibold">Michael Brown</h6>
+                <small class="text-muted">Content Writer</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Articles -->
+
+    <div class="container my-5">
+        <h2 class="mb-4">Articles & Resources</h2>
+        <div class="row align-items-center">
+            <!-- Text Content -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p class="text-muted mb-1">Technology | December 16, 2024</p>
+                <h5 class="fw-semibold mb-3">
+                    5 Cutting-Edge Technologies in Education<br>
+                    Transforming How We Learn
+                </h5>
+                <a href="#" class="text-danger text-decoration-none">Read More &rarr;</a>
+            </div>
+            <!-- Image Content -->
+            <div class="col-md-6">
+                <img src="./images/a1.jpg" alt="Classroom" class="img-fluid rounded w-100"
+                    style="height: 250px; object-fit: cover;">
+            </div>
+        </div>
+        <hr class="mt-4">
+
+        <div class="row align-items-center">
+            <!-- Text Content -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p class="text-muted mb-1">Health | December 16, 2024</p>
+                <h5 class="fw-semibold mb-3">
+                    How AI is Revolutionizing Healthcare: Improving <br> Diagnostics and Patient Care
+                </h5>
+                <a href="#" class="text-danger text-decoration-none">Read More &rarr;</a>
+            </div>
+            <!-- Image Content -->
+            <div class="col-md-6">
+                <img src="./images/a2.jpeg" alt="Classroom" class="img-fluid rounded w-100"
+                    style="height: 250px; object-fit: cover;">
+            </div>
+        </div>
+        <hr class="mt-4">
+
+        <div class="row align-items-center">
+            <!-- Text Content -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p class="text-muted mb-1">Business | December 16, 2024</p>
+                <h5 class="fw-semibold mb-3">
+                    The Rise of Remote Work: The Shift to Flexible <br> Work Environments
+                </h5>
+                <a href="#" class="text-danger text-decoration-none">Read More &rarr;</a>
+            </div>
+            <!-- Image Content -->
+            <div class="col-md-6">
+                <img src="./images/a3.jpg" alt="Classroom" class="img-fluid rounded w-100"
+                    style="height: 250px; object-fit: cover;">
+            </div>
+        </div>
+        <hr class="mt-4">
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Sign UP -->
+
+    <div class="container newsletter-section">
+        <div class="row align-items-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 mb-4 mb-md-0 mt-5">
+                <h2>Stay informed with our latest news and updates.</h2>
+                <p class="mt-3">
+                    Get breaking news and curated stories delivered to your inbox every day.
+                    Be the first to know what's happening around the world.
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <form class="d-flex flex-column gap-2">
+                    <input type="email" class="form-control border-dark p-2" placeholder="Enter your email" required>
+
+                    <button type="submit" class="btn btn-dark p-2 mt-2">Sign Up</button>
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Podcast -->
+
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Podcast</h2>
+            <a href="#" class="text-danger text-decoration-none">View All →</a>
+        </div>
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./images/p1.avif" class="card-img" alt="Podcast Image 1">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
+                        <div class="meta-text mb-1">Sports | 6 Min</div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">The challenges and opportunities</h5>
+                            <span class="play-button">▶</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <strong>Ethan Collins</strong><br>
+                    <small class="text-muted">Senior Writer</small>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./images/p2.jpg" class="card-img" alt="Podcast Image 2">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
+                        <div class="meta-text mb-1">Entertainment | 5 Min</div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">E-commerce Growth: Transforming Retail</h5>
+                            <span class="play-button">▶</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <strong>Laura Bennett</strong><br>
+                    <small class="text-muted">Editorialist</small>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./images/p3.jpeg" class="card-img" alt="Podcast Image 3">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
+                        <div class="meta-text mb-1">Business | 4 Min</div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Sustainable Fashion: Eco-Friendly</h5>
+                            <span class="play-button">▶</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <strong>Laura Bennett</strong><br>
+                    <small class="text-muted">Editorialist</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 100px;"></div>
+    <!-- Footer -->
+
+    <div class="container bg-black">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 mt-5">
+                <h1 class="text-white">JOXNEWS</h1>
+            </div>
+            <div class="col-md-1 col-sm-12"></div>
+            <div class="col-md-7 col-sm-12 custom-margin">
+                <a href="#" class="custom-footer">Entertainment</a>
+                <a href="#" class="ms-5 custom-footer">Sports</a>
+                <a href="#" class="ms-5 custom-footer">Politics</a>
+                <a href="#" class="ms-5 custom-footer">Business</a>
+                <a href="#" class="ms-5 custom-footer">Technology</a>
+                <a href="#" class="ms-5 custom-footer">Health</a>
+            </div>
+        </div>
+        <hr class="my-3" style="border-top: 2px solid rgb(255, 255, 255);">
+        <div class="row" style="height: 70px;"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h4 class="text-white mb-5">
+                    Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Dolorum totam officiis iusto
+                </h4>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./images/f1.avif" class="img-fluid w-100" style="height: 130px; object-fit: cover;"
+                            alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/f2.webp" class="img-fluid w-100" style="height: 130px; object-fit: cover;"
+                            alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/f3.jpg" class="img-fluid w-100" style="height: 130px; object-fit: cover;"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12"></div>
+            <div class="col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <p class="text-secondary mb-4">Pages</p>
+                        <a href="#" class="custom-footer d-block my-3">About Us</a>
+                        <a href="#" class="custom-footer d-block my-3">News</a>
+                        <a href="#" class="custom-footer d-block my-3">Authors</a>
+                        <a href="#" class="custom-footer d-block my-3">Podcast</a>
+                        <a href="#" class="custom-footer d-block my-3">Contact Us</a>
+                    </div>
+                    <div class="col-md-8 text-white">
+                        <p class="text-secondary mb-4">Contact Us</p>
+                        <a href="#" class="custom-footer d-block my-3">hello@example.com</a>
+                        <a href="#" class="custom-footer d-block my-3">+1(406)555-0120</a>
+                        <hr class="my-4" style="border-top: 2px solid rgb(255, 255, 255);">
+                        <p class="text-secondary mb-4">Follow Us</p>
+                        <div>
+                            <i class="fa-brands fa-facebook icon"></i>
+                            <i class="fa-brands fa-linkedin icon"></i>
+                            <i class="fa-brands fa-instagram icon"></i>
+                            <i class="fa-brands fa-square-youtube icon"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height: 70px;"></div>
+        <hr class="my-2" style="border-top: 2px solid rgb(255, 255, 255);">
+        <div class="row">
+            <div class="col-md-5 text-white">&copy; 2025 Jaxnews - Work by Nabid. Made with Webflow.</div>
+            <div class="col-md-4 text-white"></div>
+            <div class="col-md-3 text-white pb-3">
+                <a href="#" class="custom-footer me-3">Style Guide</a>
+                <a href="#" class="custom-footer me-3">Change Log</a>
+                <a href="#" class="custom-footer">Licenses</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
